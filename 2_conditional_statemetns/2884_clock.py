@@ -1,6 +1,4 @@
-H, M = input().split()
-H = int(H)
-M = int(M)
+H, M = map(int, input().split())
 
 if 45<=M<=60:
     print(H, M-45)
